@@ -31,7 +31,7 @@ One of the ways JavaScript programs can manipulate the contents of webpages is t
 
 Normally, DOM tree elements can be accessed in JavaScript via the object [selector methods](https://www.w3.org/TR/selectors-4/) of the [document](https://developer.mozilla.org/en-US/docs/Web/API/Document) object, e.g., `document.getElementById(x)` to locate the element with id `x`.
 
-However, that is not the only way and the same can be acheived via a **property** of the `document` and global `window` objects, e.g., `document.x`, or `window.x`, known as `named property access`, as specified in [HTML](https://html.spec.whatwg.org/multipage/window-object.html#named-access-on-the-window-object) and [DOM](https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors) living standards. 
+However, that is not the only way and the same can be achieved via a **property** of the `document` and global `window` objects, e.g., `document.x`, or `window.x`, known as `named property access`, as specified in [HTML](https://html.spec.whatwg.org/multipage/window-object.html#named-access-on-the-window-object) and [DOM](https://html.spec.whatwg.org/multipage/dom.html#dom-tree-accessors) living standards. 
 
 Accordingly, web browsers map HTML elements to JavaScript objects automatically based on the element `named` properties. Such named properties are, for example, `id` and `name` HTML tag attributes. 
 
